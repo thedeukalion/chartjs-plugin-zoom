@@ -534,7 +534,6 @@ var zoomPlugin = {
 		}
 
 		ctx.rect(chartArea.left, chartArea.top, chartArea.right - chartArea.left, chartArea.bottom - chartArea.top);
-		ctx.clip();
 	},
 
 	afterDatasetsDraw: function(chartInstance) {
